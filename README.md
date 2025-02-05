@@ -1,7 +1,8 @@
 # Digital Certificates and VPN Lab
 
+
 ## Overview
-This repository contains Lab 2 of the Network and System Security (DV2636) course at Blekinge Institute of Technology, Sweden and it is a continuation of the [Firewall-Config-Lab](https://github.com/patteeraL/Firewall-Config-Lab.git) and contains the configuration files and instructions for setting up a VPN with IPsec, certificates, and firewall rules as part of a cybersecurity lab. 
+This repository contains Lab 2 of the Network and System Security course at Blekinge Institute of Technology, Sweden and it is a continuation of the [Firewall-Config-Lab](https://github.com/patteeraL/Firewall-Config-Lab.git) and contains the configuration files and instructions for setting up a VPN with IPsec, certificates, and firewall rules as part of a cybersecurity lab. 
 
 The objective is to:
 
@@ -199,3 +200,15 @@ Change the default iptables policy to DROP on both Server A and Server B.
  5. Now, Client A and Client B can access the Internet through the NAT interface of Server A and Server B, respectively.
 
 
+
+#### In this project, I will provide you only the following files:
+
+- **`ipsec.conf`**: The IPsec configuration file for both Server A and Server B. This file contains settings for establishing VPN connections, but it doesn’t hold sensitive information like private keys or passwords.
+  
+- **`iptables.sh`**: The firewall script used to configure the firewall rules for both Server A and Server B.
+
+The certificates needed for the VPN setup (e.g., server certificates, client certificates, and CA certificates) are not included in this repository for security reasons. 
+
+If you follow the instructions in this repository, you will be able to create and sign the certificates on your own. 
+
+Good luck!
