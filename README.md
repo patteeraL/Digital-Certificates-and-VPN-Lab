@@ -1,7 +1,7 @@
 # Digital Certificates and VPN Lab
 
 ## Overview
-This repository is a continuation of the [Firewall-Config-Lab](https://github.com/patteeraL/Firewall-Config-Lab.git) and contains the configuration files and instructions for setting up a VPN with IPsec, certificates, and firewall rules as part of a cybersecurity lab. 
+This repository contains Lab 2 of the Network and System Security (DV2636) course at Blekinge Institute of Technology, Sweden and it is a continuation of the [Firewall-Config-Lab](https://github.com/patteeraL/Firewall-Config-Lab.git) and contains the configuration files and instructions for setting up a VPN with IPsec, certificates, and firewall rules as part of a cybersecurity lab. 
 
 The objective is to:
 
